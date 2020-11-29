@@ -4,8 +4,6 @@ clear all;clc;
 %% Part A
 epsilon = logninv([0.1, 0.3, 0.5, 0.7, 0.9],1)';
 pi = ones(5,1)*0.2;
-%h = histfit(epsilon, 5,'lognormal');
-
 %% Part B
 % To define a markov transition matrix, note that diagonal elements
 % will be \gamma = 0.9 + 0.1 * 0.2 and the non-diagonal will be 0.1*0.2
